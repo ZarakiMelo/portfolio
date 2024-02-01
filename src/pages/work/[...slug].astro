@@ -49,6 +49,7 @@ const { Content } = await entry.render();
 					<div class="content">
 						<Content />
 					</div>
+					{entry.data.video && <video src={entry.data.video} type={entry.data.videoType || ''} width="480" height="620" controls/>}
 				</div>
 			</main>
 		</div>

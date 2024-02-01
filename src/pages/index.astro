@@ -40,12 +40,8 @@ const projects = (await getCollection('work'))
 					</div>
 				</Hero>
 
-				<img
-					alt="Jeanine White smiling in a red plaid shirt and tortoise shell glasses"
-					width="480"
-					height="620"
-					src="/assets/portrait.jpg"
-				/>
+				<img width="480" height="620" src="/assets/photo1.png" alt="photo de Samy CHAHBI"/>
+						
 			</header>
 			<Skills />
 		</div>
@@ -89,17 +85,14 @@ const projects = (await getCollection('work'))
 							{[['figma','trello'],['html','css', 'tailwind'],['javascript','typescript'],['react','nextjs', 'redux'],['node','express','mongo']].map((card) => (
 									<li class="mention-card"> 
 										{card.map((techno) => (
-											<div style={{height:'90%', display: 'flex', flexDirection:'column', justifyContent:'center'}}>
-													<div style={{height:'80%', display: 'flex', flexDirection:'column', justifyContent:'center'}}>
+											
 														<img
 														alt={techno}' logo'
 														width="70"
 														height="70"
 														src={`/assets/${techno}Logo.png`}
 														/>
-													</div>
-													<p>{techno}</p>
-											</div>
+										
 										))}
 									</li>
 								))}
