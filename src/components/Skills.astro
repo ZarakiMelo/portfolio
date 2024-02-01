@@ -1,0 +1,105 @@
+---
+import Icon from './Icon.astro';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faPalette} from '@fortawesome/free-solid-svg-icons';
+import { faUikit} from '@fortawesome/free-brands-svg-icons';
+import { faMobileAlt} from '@fortawesome/free-solid-svg-icons';
+import { faDesktopAlt} from '@fortawesome/free-solid-svg-icons';
+
+import { faTrello} from '@fortawesome/free-brands-svg-icons';
+import { faGaugeHigh} from '@fortawesome/free-solid-svg-icons';
+import { faCodeBranch } from '@fortawesome/free-solid-svg-icons';
+import { faDatabase } from '@fortawesome/free-solid-svg-icons';
+import { faRoute } from '@fortawesome/free-solid-svg-icons';
+import { faShieldAlt } from '@fortawesome/free-solid-svg-icons';
+
+---
+
+<section class="box skills">
+	<div class="stack gap-2 lg:gap-4">
+		<div style={{display:'flex', flexDirection:'row'}}>
+			<FontAwesomeIcon icon={faUikit} color="var(--accent-regular)" width="40px" height="40px" gradient/>
+			<FontAwesomeIcon icon={faPalette} color="var(--accent-regular)" width="40px" height="40px" gradient/>
+		</div>
+		<h2>UX-UI</h2>
+		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod.</p>
+	</div>
+	
+	<div class="stack gap-2 lg:gap-4">
+		<div style={{display:'flex', flexDirection:'row'}}>
+			<FontAwesomeIcon icon={faMobileAlt} color="var(--accent-regular)" width="40px" height="40px" gradient/>
+			<FontAwesomeIcon icon={faDesktopAlt} color="var(--accent-regular)" width="40px" height="40px" gradient/>
+		</div>
+		<h2>Intégration responsive</h2>
+		<p>Neque viverra justo nec ultrices dui. Est ultricies integer quis auctor elit.</p>
+	</div>
+
+	<div class="stack gap-2 lg:gap-4">
+		<FontAwesomeIcon icon={faGaugeHigh} color="var(--accent-regular)" width="40px" height="40px" gradient/>
+		<h2>Single Page Application</h2>
+		<p>Urna porttitor rhoncus dolor purus non enim praesent ornare.</p>
+	</div>
+	<div class="stack gap-2 lg:gap-4">
+		<div style={{display:'flex', flexDirection:'row'}}>
+			<FontAwesomeIcon icon={faShieldAlt} color="var(--accent-regular)" width="40px" height="40px" gradient/>
+			<FontAwesomeIcon icon={faRoute} color="var(--accent-regular)" width="40px" height="40px" gradient/>
+		</div>
+		<h2>Backend et Architecture</h2>
+		<p>Urna porttitor rhoncus dolor purus non enim praesent ornare.</p>
+	</div>
+	<div class="stack gap-2 lg:gap-4">
+		<FontAwesomeIcon icon={faDatabase} color="var(--accent-regular)" width="40px" height="40px" gradient/>
+		<h2>Bases de données</h2>
+		<p>Urna porttitor rhoncus dolor purus non enim praesent ornare.</p>
+	</div>
+	<div class="stack gap-2 lg:gap-4">
+		<div style={{display:'flex', flexDirection:'row'}}>
+			<FontAwesomeIcon icon={faCodeBranch} color="var(--accent-regular)" width="40px" height="40px" gradient/>
+			<FontAwesomeIcon icon={faTrello} color="var(--accent-regular)" width="40px" height="40px" gradient/>
+		</div>
+		
+		<h2>Mode Agile et Intégration continue</h2>
+		<p>Urna porttitor rhoncus dolor purus non enim praesent ornare.</p>
+	</div>
+</section>
+
+<style>
+	.box {
+		border: 1px solid var(--gray-800);
+		border-radius: 0.75rem;
+		padding: 1.5rem;
+		background-color: var(--gray-999_40);
+		box-shadow: var(--shadow-sm);
+	}
+
+	.skills {
+		display: flex;
+		flex-direction: column;
+		gap: 3rem;
+	}
+
+	.skills h2 {
+		font-size: var(--text-lg);
+	}
+
+	.skills p {
+		color: var(--gray-400);
+	}
+
+	@media (min-width: 50em) {
+		.box {
+			border-radius: 1.5rem;
+			padding: 2.5rem;
+		}
+
+		.skills {
+			display: grid;
+			grid-template-columns: repeat(3, 1fr);
+			gap: 5rem;
+		}
+
+		.skills h2 {
+			font-size: var(--text-2xl);
+		}
+	}
+</style>
