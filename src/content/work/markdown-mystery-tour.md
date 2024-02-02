@@ -3,6 +3,8 @@ title: Trans-IDE
 publishDate: 2020-03-02 00:00:00
 img: /assets/stock-1.jpg
 img_alt: Iridescent ripples of a bright blue and pink liquid
+video: /assets/demo.MP4
+videoType: video/MP4
 description: |
   We designed a whodunnit-style game to introduce Markdown formatting. Suspense — suspicion — syntax!
 tags:
