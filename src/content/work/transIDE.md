@@ -6,32 +6,29 @@ img_alt: TransIDE application's logo
 video: /assets/demo.MP4
 videoType: video/MP4
 description: |
-  Application mobile à destination des infirmiers libéraux de France. TransIDE est la solution offrant aux IDE une gestion simplifiée et automatisée de leurs tournées quotidiennes, ainsi qu'une communication effficace entre membres d'un même cabinet!
+  Application mobile à destination des infirmiers libéraux de France (IDE). TransIDE est la solution offrant aux IDE une gestion simplifiée et automatisée de leurs tournées quotidiennes, ainsi qu'une communication effficace entre membres d'un même cabinet !
 tags:
   - Design
   - Dev
   - User Testing
 ---
 
-## Level-two heading
+## Redonnez du temps à l'essentiel
 
-> Tell me and I forget. Teach me and I remember. Involve me and I learn.
+Bienvenue dans TransIDE, votre outil quotidien pour optimiser la gestion de vos tournées en tant qu'infirmier libéral. Conçue avec le souci de simplicité et d'efficacité, TransIDE offre une interface conviviale permettant de suivre et de gérer facilement vos rendez-vous quotidiens.
 
-Lorem ipsum dolor sit amet, <a href="https://astro.build/">Astro</a> makes people happy. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Proin nibh nisl condimentum id venenatis a condimentum vitae. Dapibus ultrices in iaculis nunc. Arcu odio ut sem nulla pharetra diam sit amet. Diam quis enim lobortis scelerisque fermentum dui faucibus in ornare.
+#### Plannifiez en toute simplicité
 
-Arcu dui vivamus arcu felis bibendum ut tristique et egestas. Eget gravida cum sociis natoque penatibus. Cras fermentum odio eu feugiat pretium nibh. Proin nibh nisl condimentum id venenatis. Porta nibh venenatis cras sed felis eget velit. Id diam vel quam elementum pulvinar etiam non.
+Dès votre connexion, vous accédez à la page de votre tournée du jour, regroupant tous vos rendez-vous. Planifiez vos rendez-vous de deux manières différentes : importez les données depuis le logiciel métier de l'IDE ou ajoutez un rendez-vous directement via l'application en cliquant sur le bouton +, disponible sur la page de la tournée.
 
-### Level-three heading
+Explorez ensuite les détails de chaque rendez-vous, y compris les soins prévus et les modifications apportées. Cette fonctionnalité vous permet de rester informé et de mettre à jour les informations médicales avec précision.
 
-Ultrices tincidunt arcu non sodales neque sodales ut. Sed enim ut sem viverra aliquet eget sit amet. Lacus luctus accumsan tortor posuere ac ut consequat semper viverra. Viverra accumsan in nisl nisi scelerisque eu ultrices. In massa tempor nec feugiat nisl pretium fusce.
+#### Validez et modifiez en temps réel
 
-### Level-three heading
+En un clic, consultez la fiche détaillée de chaque patient et apportez les modifications nécessaires en temps réel. La validation des rendez-vous se fait en toute simplicité, garantissant une gestion fluide de votre emploi du temps chargé.
 
-Sed pulvinar porttitor mi in ultricies. Etiam non dolor gravida eros pulvinar pellentesque et dictum ex. Proin eu ornare ligula, sed condimentum dui. Vivamus tincidunt tellus mi, sed semper ipsum pharetra a. Suspendisse sollicitudin at sapien nec volutpat. Etiam justo urna, laoreet ac lacus sed, ultricies facilisis dolor. Integer posuere, metus vel viverra gravida, risus elit ornare magna, id feugiat erat risus ullamcorper libero. Proin vitae diam auctor, laoreet lorem vitae, varius tellus.
+#### Communiquez et assurez des relèves efficaces
 
-Aenean pretium purus augue, ut bibendum erat convallis quis. Cras condimentum quis velit ac mollis. Suspendisse non purus fringilla, venenatis nisl porta, finibus odio. Curabitur aliquet metus faucibus libero interdum euismod. Morbi sed magna nisl. Morbi odio nibh, facilisis vel sapien eu, tempus tincidunt erat. Nullam erat velit, sagittis at purus quis, tristique scelerisque tortor. Pellentesque lacinia tortor id est aliquam viverra. Vestibulum et diam ac ipsum mollis fringilla.
+TransIDE facilite également la communication au sein de votre équipe. En accédant à la section "Transmissions", consultez les messages laissés par vos collègues et partagez des informations importantes. Créez des messages généraux ou spécifiques à un patient pour une collaboration optimale au sein de votre cabinet.
 
-#### Level-four heading
-
-- We noted this
-- And also this other point
+> Avec TransIDE, simplifiez votre quotidien et restez connecté avec votre équipe, tout en offrant un service de qualité à vos patients.

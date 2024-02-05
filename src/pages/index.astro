@@ -31,7 +31,7 @@ const projects = (await getCollection('work'))
 			<header class="hero">
 				<Hero
 					title="Hello, je m'appelle Samy CHAHBI"
-					tagline="Développeur Full-Stack Javascript."
+					tagline="Développeur Full-Stack Javascript - ReactJS/NodeJS."
 					align="start"
 				>
 					<div class="roles">
@@ -40,7 +40,7 @@ const projects = (await getCollection('work'))
 					</div>
 				</Hero>
 
-				<img width="480" height="620" src="/assets/photo1.png" alt="photo de Samy CHAHBI"/>
+				<img width="480" height="620" src="/assets/photo2.png" alt="photo de Samy CHAHBI"/>
 						
 			</header>
 			<Skills />
@@ -67,7 +67,7 @@ const projects = (await getCollection('work'))
 
 				<div class="cta">
 					<CallToAction href="/work/">
-						View All
+						Tous les projets
 						<Icon icon="arrow-right" size="1.2em" />
 					</CallToAction>
 				</div>
@@ -82,7 +82,7 @@ const projects = (await getCollection('work'))
 				</header>
 				<div class="gallery">
 					<Grid variant="small">
-							{[['figma','trello'],['html','css', 'tailwind'],['javascript','typescript'],['react','nextjs', 'redux'],['node','express','mongo']].map((card) => (
+							{[['figma','trello'],['javascript','typescript'],['react', 'redux'],['node','mongo']].map((card) => (
 									<li class="mention-card"> 
 										{card.map((techno) => (
 											

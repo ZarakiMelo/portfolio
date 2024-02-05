@@ -7,6 +7,7 @@ import ContactCTA from '../../components/ContactCTA.astro';
 import Hero from '../../components/Hero.astro';
 import Icon from '../../components/Icon.astro';
 import Pill from '../../components/Pill.astro';
+import Grid from '../../components/Grid.astro';
 
 interface Props {
 	entry: CollectionEntry<'work'>;
@@ -32,7 +33,7 @@ const { Content } = await entry.render();
 		<div class="stack gap-15">
 			<header>
 				<div class="wrapper stack gap-2">
-					<a class="back-link" href="/work/"><Icon icon="arrow-left" /> Work</a>
+					<a class="back-link" href="/work/"><Icon icon="arrow-left" /> Projets</a>
 					<Hero title={entry.data.title} align="start">
 						<div class="details">
 							<div class="tags">
@@ -49,7 +50,9 @@ const { Content } = await entry.render();
 					<div class="content">
 						<Content />
 					</div>
-					{entry.data.video && <video src={entry.data.video} type={entry.data.videoType || ''} width="480" height="620" controls/>}
+					<div style={{display:'flex', width:'100%', justifyContent:'center'}}>
+						{entry.data.video && <video src={entry.data.video} type={entry.data.videoType || ''} width="480" height="620" controls/>}
+					</div>
 				</div>
 			</main>
 		</div>
@@ -148,5 +151,7 @@ const { Content } = await entry.render();
 		.content :global(blockquote) {
 			font-size: var(--text-2xl);
 		}
+
 	}
+	
 </style>

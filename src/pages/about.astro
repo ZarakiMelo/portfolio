@@ -5,54 +5,62 @@ import ContactCTA from '../components/ContactCTA.astro';
 import Hero from '../components/Hero.astro';
 ---
 
-<BaseLayout title="About | Jeanine White" description="About Jeanine White Lorem Ipsum">
+<BaseLayout title="A propos | Samy CHAHBI" description="A propos de Samy CHAHBI">
 	<div class="stack gap-20">
 		<main class="wrapper about">
 			<Hero
-				title="About"
-				tagline="Thanks for stopping by. Read below to learn more about myself and my background."
+				title="A propos"
+				tagline="Pour en savoir plus sur moi et mon background."
 			>
-				<img
-					width="1553"
-					height="873"
-					src="/assets/at-work.jpg"
-					alt="Jeanine White at work with a colleague"
-				/>
+			<div class="imageContainer">
+						<img
+							width="300"
+							height="200"
+							src="/assets/photo3.png"
+							alt=""
+						/>
+			</div>
+				
 			</Hero>
-
+				
 			<section>
-				<h2 class="section-title">Background</h2>
+				<h2 class="section-title">Expérience</h2>
 				<div class="content">
 					<p>
-						Lorem ipsum dolor sit amet, <a href="https://astro.build/">Astro</a> makes people happy.
-						Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Proin nibh nisl condimentum
-						id venenatis a condimentum vitae. Dapibus ultrices in iaculis nunc. Arcu odio ut sem nulla
-						pharetra diam sit amet. Diam quis enim lobortis scelerisque fermentum dui faucibus in ornare.
+						Après cinq années en tant que manager dans l'industrie de la restauration rapide, j'ai évolué pendant sept ans en tant qu'animateur de systèmes de management qualité. Ces expériences m'ont permis de perfectionner mes compétences en <strong>gestion d'équipe et en optimisation des processus</strong>.<br/>
 					</p>
 					<p>
-						Arcu dui vivamus arcu felis bibendum ut tristique et egestas. Eget gravida cum sociis
-						natoque penatibus. Cras fermentum odio eu feugiat pretium nibh. Proin nibh nisl
-						condimentum id venenatis. Porta nibh venenatis cras sed felis eget velit. Id diam vel
-						quam elementum pulvinar etiam non.
+						<br/>À partir de 2018, j'ai élargi mes horizons en devenant <strong>délégué à la protection des données</strong> au sein de mon organisation, tout en pilotant des <strong>projets de digitalisation</strong> des processus internes. Cette transition m'a initié au monde du numérique et a suscité mon intérêt pour le développement web.
 					</p>
 					<p>
-						Ultrices tincidunt arcu non sodales neque sodales ut. Sed enim ut sem viverra aliquet
-						eget sit amet. Lacus luctus accumsan tortor posuere ac ut consequat semper viverra.
-						Viverra accumsan in nisl nisi scelerisque eu ultrices. In massa tempor nec feugiat nisl
-						pretium fusce.
+						<br/>En début d'année 2023, j'ai décidé de plonger pleinement dans cette nouvelle passion. Après des mois de formation autodidacte intense, j'ai intégré une <strong>école spécialisée en développement web et mobile</strong>, où j'ai exploré les technologies modernes telles que <strong>React et Node.js</strong>.
+					</p>
+					<p>
+						<br/>Cette immersion m'a conduit à obtenir un diplôme de niveau <strong>bac+3/4 de Concepteur et Développeur Web et Mobile</strong>. Aujourd'hui, je mets à profit mes compétences polyvalentes acquises dans différents domaines pour créer des solutions web innovantes et apporter une valeur ajoutée dans le monde du développement numérique.
 					</p>
 				</div>
 			</section>
 			<section>
-				<h2 class="section-title">Education</h2>
+				<h2 class="section-title">Formation</h2>
 				<div class="content">
-					<p>Corporis voluptates tenetur laudantium.</p>
+					<p>2007 - Baccalauréat scientifique option physique-chimie.</p>
+					<p>2010 - Diplômes internes de Management en restauration rapide (équivalent > bac+2 - Management en restaurant et hôtellerie).</p>
+					<p>2016 - Bac +3 - Animateur qualité, sécurité, santé, environnement.</p>
+					<p>2024 - Bac +4 - Concepteur et développeur d'application web et mobile.</p>
 				</div>
 			</section>
 			<section>
-				<h2 class="section-title">Skills</h2>
+				<h2 class="section-title">Compétences</h2>
 				<div class="content">
-					<p>officia unde omnis</p>
+					<p>Mode Agile et intégration continue</p>
+					<p>Amélioration continue</p>
+					<p>UX-UI</p>
+					<p>Intégration responsive</p>
+					<p>Single Page Application</p>
+					<p>Backend et Architecture</p>
+					<p>Base de données</p>
+					<p>Anglais technique</p>
+					
 				</div>
 			</section>
 		</main>
@@ -65,11 +73,18 @@ import Hero from '../components/Hero.astro';
 	.about {
 		display: flex;
 		flex-direction: column;
+		justify-content: center;
 		gap: 3.5rem;
 	}
 
-	img {
+	.imageContainer{
+		display: flex;
 		margin-top: 1.5rem;
+		width: 100%;
+		justify-content: center;
+	}
+	img {
+		
 		border-radius: 1.5rem;
 		box-shadow: var(--shadow-md);
 	}
